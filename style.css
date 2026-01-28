@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: white;
+}
+
+h1,h2,h3,h4{
+  font-size: 25px;
+}
+
+#main{
+  background: linear-gradient(45deg, #182C61, #0c88e8);
+  margin: 10px auto;
+  padding: 20px 25px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+
+#main form label{
+  display: block;
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+#main form input{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 2px 5px;
+  background: linear-gradient(to bottom, #0176b5, #689dff);
+  margin-bottom: 5px;
+}
+
+::placeholder{
+  color: white;
+  opacity: 0.8;
+}
+
+#main form button{
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: aliceblue;
+  color: #182C61;
+  font-weight: 700;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+#main form button:hover{
+  background-color: rgb(187, 196, 204);
+}
+
+#main .result{
+  background-color: aliceblue;
+  display: none;
+  padding: 5px 10px;
+  margin: 5px 0 10px;
+}
+
+#main .result h4, h2{
+  color: #182C61;
+}
+
+#main .result h4{
+  font-size: 15px;
+}
+
+#main .result h2{
+  font-size: 25px;
+}
+
+#score{
+  background-color: antiquewhite;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+
+.info{
+  background-color: aliceblue;
+  padding: 10px 10px;
+  margin: 5px 0;
+}
+
+.info h4, p{
+  color: #182C61;
+}
+
+.info h4{
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.info p{
+  font-size: 12px;
+}
+
+@media (min-width: 360px) and (max-width: 440px) {
+  #main{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 40px 25px 10px;
+    border-radius: 0;
+  }
+
+  #main h1{
+    font-size: 30px;
+  }
+
+  #main form input{
+    margin-bottom: 15px;
+  }
+
+  #main form button{
+    margin-bottom: 20px;
+  }
+
+  #main .result{
+    margin-bottom: 20px;
+  }
+}
