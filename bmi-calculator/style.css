@@ -10,11 +10,19 @@ h1,h2,h3,h4{
   font-size: 25px;
 }
 
+body{
+  background-color: rgb(207, 227, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 #main{
   background: linear-gradient(45deg, #182C61, #0c88e8);
   margin: 10px auto;
   padding: 20px 25px;
   width: 90%;
+  max-width: 460px;
   border-radius: 10px;
 }
 
